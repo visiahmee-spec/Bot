@@ -1,0 +1,40 @@
+{
+  "bot_info": {
+    "name": "AHMED Bot",
+    "version": "1.0.0",
+    "author": "AHMED",
+    "description": "Advanced Telegram Bot for Card Checking and Site Analysis",
+    "country": "Iraq 🇮🇶"
+  },
+  "bot_token": "7497151281:AAHQLlqAR3dMcosj3uevoK3_E6PdHnM3inw",
+  "database": {
+    "host": "localhost",
+    "username": "root",
+    "password": "",
+    "database_name": "demo"
+  },
+  "admin_ids": [
+    1234567890
+  ],
+  "premium_groups": [
+    -1001234567890
+  ],
+  "features": {
+    "bin_checker": true,
+    "card_generator": true,
+    "site_analyzer": true,
+    "key_checker": true,
+    "mass_checker": false
+  },
+  "limits": {
+    "max_card_generation": 20,
+    "max_url_analysis": 50,
+    "rate_limit_seconds": 2
+  },
+  "messages": {
+    "welcome": "Welcome to AHMED Bot 🇮🇶",
+    "invalid_input": "❌ Invalid input. Please check the format.",
+    "maintenance": "🔧 Bot is under maintenance. Please try again later.",
+    "no_permission": "⛔ You don't have permission to use this command."
+  }
+}
